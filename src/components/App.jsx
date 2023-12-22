@@ -15,6 +15,8 @@ export class App extends Component {
     filter: '',
   };
 
+
+  
 componentDidMount() {
   const savedContacts = localStorage.getItem('contacts');
   
